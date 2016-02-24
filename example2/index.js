@@ -1,6 +1,4 @@
-var strPool = {},
-	screenData = {},
-	stringEl = document.getElementById('string'),
+var stringEl = document.getElementById('string'),
 	matchedEl = document.getElementById('matchedList');
 
 var worker = new Worker('computation.js');

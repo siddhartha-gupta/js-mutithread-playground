@@ -70,32 +70,3 @@ function clone(obj) {
 
 	return temp;
 }
-
-// /*
-//  * To verify which uuids contains 'a'
-//  */
-// var checkStrExistance = MT.process(
-// 
-// 	showMatch
-// );
-
-// function showMatch(matchedStr) {
-// 	// console.log(matchedStr);
-// 	// console.log('strPool length: ', Object.keys(strPool).length, ' :matchedStr length: ', Object.keys(matchedStr).length);
-// 	drawStr(matchedEl, matchedStr, ', ', false);
-// 	checkExistance();
-// }
-
-
-
-// /*
-//  * To draw strings on screen
-//  */
-// function drawStr(el, data, separator, reInvoke) {
-// 	for (var i in data) {
-// 		el.innerHTML += i + separator;
-// 	}
-// 	if (reInvoke) {
-// 		invokeDrawStr();
-// 	}
-// }
